@@ -22,6 +22,9 @@ export default function game() {
   ];
 
   const sonic = makeSonic(k.vec2(200, 745));
+  // Set controls/events for Sonic
+  sonic.setControls();
+  sonic.setEvents();
 
   let gameSpeed = 300;
   k.loop(1, () => {
