@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "zip": "node zip.js"
+
   },
   "devDependencies": {
     "vite": "^6.2.0"
   },
   "dependencies": {
-    "kaplay": "^3001.0.9"
+    "kaplay": "^3001.0.9",
+    "zip-a-folder": "^3.1.8"
   }
 }
