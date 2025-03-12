@@ -66,7 +66,7 @@ export default function game() {
     // TODO: Add score
     k.setData("current-score", score);
 
-    k.go("game-over", { citySfx });
+    k.go("game-over", citySfx);
   });
 
   sonic.onCollide("ring", (ring) => {
